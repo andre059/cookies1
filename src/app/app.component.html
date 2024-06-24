@@ -43,8 +43,8 @@
     <div class="container">
       <img src="./assets/images/line2.png" alt="Line" class="line2">
       <div class="common-title">Выберите печенье</div>
-      <div class="products-items" *ngFor="let product of productsData">
-        <div class="products-item">
+      <div class="products-items">
+        <div class="products-item" *ngFor="let product of productsData">
           <div class="products-item-image">
             <img src="{{product.image}}" alt="Product">
           </div>
